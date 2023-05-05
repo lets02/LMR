@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.nav{
+    background-color: aliceblue;
+    width: 100%;/*sanqswjiosjiwqj*/
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    height: 70px;
+}
+.nav .linkMenu{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(107, 244, 125);
+}
+.nav .menuHamburger{
+    display: none;
+}
+.nav .menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
