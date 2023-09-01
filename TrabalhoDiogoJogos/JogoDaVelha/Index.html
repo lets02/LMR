@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<html>
+<head>
+    <title>Apostila JavaScript Progressivo</title>
+
+    <script type="text/javascript" src="velha.js"></script>
+</head>
+
+
+<body onload=inicia()>
+<h1>Jogo Da Velha</h1>
+<div class="container">
+
+<div id='board' class="board"></div><br />
+
+</div>
+<section id="linha">
+<br>
+Linha :<input id="lin" type="number" min="1" max="2"> <br />
+Coluna:<input id="col" type="number"min="1" max="2" > <br />
+<br>
+</section>
+<br>
+  
+<section id="jogar">
+<button onclick="jogar()" class="marcar">Marcar</button><br />
+</section>
+
+
+
+<div id='aviso'></div><br />
+<script src="Velha.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+ /*Importação do estilo de fonte pixel*/
+ @import url(http://fonts.googleapis.com/css?family=Geo&subset=latin);
+        
+ /*Corpo da Página*/
+ body{background-color: #f78fb3;}
+ 
+ /*Título Principal*/
+ h1{
+     text-align: center;
+     color: white;
+     font-family: 'Geo', serif;
+     padding-top: 50px;
+     font-size: 70px;
+ }
+
+ #board {
+    width: 200px;
+    height: 200px;
+     margin: auto;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Geo', serif;
+   
+}
+#linha{
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+     color: white;
+     font-family: 'Geo', serif;
+     margin-top: 350px;
+}
+#jogar{
+    justify-content: center;
+    text-align: center;
+}
+.marcar{
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  color: black;
+    font-family: 'Geo', serif;
+    padding-top: 8px;
+    font-size: 20px;
+
+}
+.marcar:hover{
+    
+    background-color: rgb(183, 75, 129);
+    
+}
+
+#linha {
+    font-size: 2.5em;
+}
+
+#linha input {
+    width: 3vw;
+    height: 4.5vh;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
