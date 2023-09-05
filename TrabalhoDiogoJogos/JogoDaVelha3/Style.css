@@ -76,3 +76,15 @@ font-family: 'Raleway', sans-serif;
         font-family:  Verdana,
         Geneva, Tahoma, sans-serif; ;
     }
+
+    @media screen and (max-width: 279px){
+        #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9{
+            width: 50px;
+            height: 36px;
+            transition: 0.3s;
+        }
+    }
+
+
+    

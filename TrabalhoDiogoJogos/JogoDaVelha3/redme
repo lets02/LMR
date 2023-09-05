@@ -1,0 +1,23 @@
+RELATÓRIO JOGO DA VELHA - HTML, CSS, JS
+
+O jogo da velha é um jogo clássico de tabuleiro que envolve dois jogadores, geralmente identificados como X e O, que se alternam para preencher um tabuleiro 3x3 com seus respectivos símbolos. O jogo continua até que um jogador vença ou ocorra um empate. Vamos analisar as principais funções do código fornecido:
+
+HTML:
+1. !DOCTYPE html: Esta declaração define o tipo de documento como HTML5, informando ao navegador como interpretar o código.
+2. <meta name="viewport">: Esta meta tag controla a escala inicial da página para dispositivos móveis.
+3. <link rel="stylesheet">: Inclui um arquivo CSS externo chamado "Style.css" para estilizar a página.
+4. <script src="Velha.js"></script>: Inclui um arquivo JavaScript externo chamado "Velha.js" para adicionar interatividade ao jogo.
+5. <div id="main">: Um elemento div com o ID "main" envolve todo o conteúdo visível da página.
+6. <button id="but">: Um botão com o ID "but" é fornecido para reiniciar o jogo quando clicado.
+7. <section id="semprex">: Uma seção com o ID "semprex" contém um parágrafo que informa que o jogador X sempre começa.
+
+CSS:
+1. <h1>:Estilo para o cabeçalho com uma fonte personalizada, cor e tamanho.
+2. #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{}: Estilo para os elementos de grade do tabuleiro, como bordas, cores de texto, fontes e tamanho.
+3. #but:Estilo para o botão de reinício, incluindo tamanho, cores e fonte.
+4. Estilo para o espaço que exibe de quem é a vez de jogar.
+
+JS:
+1. myfunc(): Esta função é chamada sempre que um jogador clica em um dos campos do tabuleiro. Ela verifica se um jogador ganhou, se houve empate ou se o jogo deve continuar.
+2. myfunc_2(): Esta função é chamada quando o botão "REINICIAR" é clicado, reiniciando o jogo e habilitando todos os campos do tabuleiro.
+3. myfunc_3() a myfunc_11(): Essas funções são chamadas quando um jogador clica em um campo específico do tabuleiro. Elas preenchem o campo com o símbolo do jogador da vez (X ou O) e desabilitam o campo para evitar que seja jogado novamente.
